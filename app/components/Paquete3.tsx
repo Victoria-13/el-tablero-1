@@ -63,7 +63,7 @@ export default function Paquete3() {
       {/* Botón invisible en la parte inferior de la imagen */}
       <button
         onClick={() => setIsFormularioOpen(true)}
-        className="absolute bottom-40 sm:bottom-40 md:bottom-40 left-1/2 transform -translate-x-1/2 w-40 h-12 bg-red-600 text-white opacity-100 hover:opacity-90 transition-opacity cursor-pointer z-30 rounded-md btn-movil-arriba"
+        className="absolute bottom-40 sm:bottom-40 md:bottom-40 left-1/2 transform -translate-x-1/2 w-40 h-12 bg-transparent text-white opacity-100 hover:opacity-90 transition-opacity cursor-pointer z-30 rounded-md btn-movil-arriba"
         style={{ zIndex: 30 }}
       >
       </button>
